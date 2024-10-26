@@ -1,0 +1,30 @@
+.AdorabelThings {
+    height: 70vh;
+    width: 94%;
+    background-image: url(Images/BannerADORABEL3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+}
+
+.AdorabelThings h2 {
+    color: beige;
+    padding: 20px 30px;
+    border: 10px solid bisque;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AdorabelThings h3 {
+    color: bisque;
+    padding: 20px;
+    position: absolute;
+    bottom: 10%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
