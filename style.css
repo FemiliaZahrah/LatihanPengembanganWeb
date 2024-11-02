@@ -1,10 +1,10 @@
-.AdorabelThings {
+.TrueBeauty {
     height: 70vh;
     width: 94%;
-    background-image: url(Images/BannerADORABEL3.png);
+    background-image: url(Images/bgtb2.jpg);
     background-size: cover;
     background-position: center;
-    padding: 90px 40px;
+    padding: 30px 40px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -12,19 +12,249 @@
     opacity: 0.75;
 }
 
-.AdorabelThings h2 {
+.TrueBeauty h2 {
     color: beige;
     padding: 20px 30px;
-    border: 10px solid bisque;
-    font-size: 40px;
+    border: 15px solid beige;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.AdorabelThings h3 {
-    color: bisque;
+.TrueBeauty h3 {
+    color: beige;
     padding: 20px;
     position: absolute;
     bottom: 10%;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*bagian navbar - home page atas*/
+header {
+    background-color: pink; /* Slight transparency */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: white;
+}
+
+.search-button button {
+    background-color: white;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button button:hover {
+    background-color: #0070a0;
+}
+
+.outline p {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    outline-style: dotted;
+    outline-color: salmon;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*box-model*/
+.bubble-box {
+    position: relative;
+    padding: 30px;
+    border: 8px solid salmon;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: pink;
+    width: 1100px;
+    font-family:Verdana;
+    font-size: 17px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+/* list cast*/
+.container-cast {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.content-cast {
+    line-height: 1,5;
+    padding: 10px;
+}
+
+.content-cast p { 
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: Verdana;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+dl.a {
+    list-style:disc;
+    background: beige;
+    padding: 20px;
+    line-height: 1.8;
+    margin-inline-start: 10px;
+    float: left;
+    width: 50%;
+}
+
+dl {
+    margin-bottom: 5px;
+}
+
+dl dt {
+    background: pink;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+dl dd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 2px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+dl li {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    font-size: 15px;
+    text-align: justify;
+    opacity: 80%;
+}
+
+.image-TrueBeauty {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 60px;
+    gap: 10px;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    width: 40%
+}
+
+.image-TrueBeauty img {
+    height: auto;
+    display: block;
+    width: 133%;
+    padding-bottom: 5px;
+}
+
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tabel th,.tabel td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.tabel th {
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+}
+
+.tabel tr:nth-child(even) {
+    background-color: white;
+}
+
+.tabel tr:hover {
+    background-color: beige;
+}
+
+/*footer dan icons*/
+footer {
+    background-color: pink; 
+    padding: 10px; 
+    text-align: left; 
+    font-family: Verdana;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1190px; 
+    margin: 10px auto; 
+    padding-bottom: 10px;
+}
+.tagline {
+    padding-top: 20px;
+}
+.kontak {
+    padding-top: 20px;
+    padding-left: 510px;
+}
+.icons {
+    padding-top: 18px;
+    display: flex;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-brands.fa-youtube.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
 }
